@@ -68,7 +68,7 @@ public class ImageOperation {
 		
 		//creating text field
 		JTextField textfield = new JTextField(10);
-		f.setLayout(new FlowLayout());
+		f.setLayout(new FlowLayout(FlowLayout.LEFT));
 		f.add(button);
 		f.add(textfield);
 		
